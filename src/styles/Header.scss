@@ -18,16 +18,19 @@ li {
     list-style: none;
     font-family: $main-font;
     font-size: 20px;
+    text-decoration: none;
 }
 
 a:link {
-    text-decoration: none;
+   
     color: #ff6060;
 }
 
-a:hover {
-    text-decoration: underline;
-} 
+
+.linku.active {
+    border-bottom: 1px solid $main-color;
+    text-decoration: $main-color;
+}
 
 a:visited {
     color: #ff6060;
