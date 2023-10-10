@@ -1,0 +1,153 @@
+
+.cardsBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+
+
+
+.kasaCard {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+    background-color: #F6F6F6;
+    border-radius: 20px;
+
+    justify-content: center;
+    width: 90%;
+    padding-top: 50px;
+}
+
+
+
+.cardes {
+    display: flex;
+    width: 28%;
+}
+
+.cardsimg {
+    border-radius: 10px;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    
+}
+
+
+
+.cardLink {
+    display: flex;
+    width: 100%;
+}
+
+.cardsimg {
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardsimg:hover {
+    transform: scale(1.1); 
+cursor: pointer;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardTitle {
+    width: 24%;
+    font-family: 'Montserrat';
+    z-index: 1;
+    position: absolute;
+    margin-top: 190px;    
+        
+    padding-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .kasaCard {
+        display: flex;
+    flex-direction: column;
+    background: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 94.2%;
+    margin: auto;
+    gap: 15px;
+    align-items: center;
+    }
+
+    .cardes {
+        display: flex;
+        width: inherit;
+    }
+
+   
+    
+    .cardTitle {
+        width: 80%;
+        font-family: $main-font;
+        z-index: 1;
+        position: absolute;
+        margin-top: 190px;    
+        padding-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .cardLink {
+        display: flex;
+        width: 100%;
+    }
+    
+    
+    .cardsimg {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .cardsimg:hover {
+        transform: scale(1.1); 
+        border-radius: 5%;
+    cursor: pointer;
+    }
+
+    .card {
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cardsBox {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 870px) {
+
+    .cardTitle {
+        width: 33%;
+        font-family: "Montserrat";
+        z-index: 1;
+        position: absolute;
+        margin-top: 184px;
+        padding-left: 10px;
+        color: white;
+        font-size: 13px;
+      }
+
+      .cardes {
+        display: flex;
+        width: 40%;
+      }
+}

@@ -1,0 +1,101 @@
+
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+.errorTitle {
+    color: $main-color;
+    font-family: $main-font;
+    font-size: 290px;
+    font-weight: bold;
+    font-size: 290px;  
+    font-weight: 700;  
+    margin: 0;
+    line-height: 410px;
+    text-align: center;
+
+}
+
+.errorScdTitle {
+
+    color: $main-color;
+    font-size: 36px;
+
+}
+
+.errorLink {
+    font-family: $main-font;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 70px;
+    
+   
+}
+
+.errorContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+    font-family: $main-font;
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) { 
+
+    .error {
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    
+    .errorTitle {
+        color: $main-color;
+        font-family: $main-font;
+        font-size: 96px;
+        font-weight: bold; 
+        font-weight: 700;  
+        margin: 0;
+        line-height: 136px;
+        text-align: center;
+    
+    }
+    
+    .errorScdTitleBox {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .errorScdTitle {
+    
+        color: $main-color;
+        font-size: 18px;
+        width: 90%;
+    
+    }
+    
+    .errorLink {
+        font-family: $main-font;
+        font-size: 14px;
+        text-decoration: underline;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 0;
+        margin-right: 0;
+        
+       
+    }
+    
+    .errorContent {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        margin-top: 0;
+        font-family: $main-font;
+        text-align: center;
+    }
+
+}

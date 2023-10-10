@@ -1,0 +1,287 @@
+
+
+
+
+.infosBox {
+  display: flex;
+  justify-content: center;
+}
+
+
+.clpsbox {
+  display: flex;
+  justify-content: center;
+}
+
+.collapseDisplay {
+  display: flex;
+  flex-direction: row;    
+  width: 92%;    
+  justify-content: center;    
+  gap: 60px;    
+
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.housingInfos {
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    
+}
+
+.housingHostAndRating {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 20%;
+  margin-left: 0;
+}
+
+.housingInfoshouseAndtags {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  flex-wrap: wrap;
+
+}
+
+
+.houseInfos {
+  display: flex;
+  flex-direction: column;
+}
+
+.housingTitle {
+  color: $main-color;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0;
+}
+
+.housingLocation {
+  color: $main-color;
+  font-family: $main-font;
+  font-size: 18px;
+  margin: 0;
+  font-weight: lighter;
+
+}
+
+.hostName {
+
+color: $main-color;
+font-family: $main-font;
+font-weight: lighter;
+font-size: 18px;
+
+}
+
+.hostInfos {
+  display: flex;
+flex-direction: row;
+height: 80px;
+justify-content: flex-end;
+
+gap: 10px;
+
+}
+
+.hostPic {
+  border-radius: 90px;
+  width: 64px;
+  height: 64px;
+  margin-top: 8px;
+}
+
+.housingTags {
+    
+  display: flex;   
+  flex-direction: row;    
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+
+.housingTag {
+border: 3px solid $main-color;
+background-color:$main-color;
+border-radius:10px;
+width: max-content;
+font-family: $main-font;
+padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 2px;
+  padding-top: 2px;
+
+}
+
+.carousel {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  
+  .collapseDisplay {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 20px;
+    gap: 0;
+    margin-right: 20px;
+  }
+
+
+  .housingInfos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.housingHostAndRating {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+    width: 96%;
+    margin-left: 0;
+    margin-top: -20px;
+}
+
+.housingInfoshouseAndtags {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+
+}
+
+
+.houseInfos {
+  display: flex;
+  flex-direction: column;
+}
+
+.housingTitle {
+  color: $main-color;
+  font-family: $main-font;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+
+.housingLocation {
+  color: $main-color;
+  font-family: $main-font;
+  font-size: 14px;
+  margin: 0;
+  font-weight: lighter;
+
+}
+
+.hostName {
+
+color: $main-color;
+font-family: $main-font;
+font-weight: lighter;
+font-size: 12px;
+
+}
+
+.hostInfos {
+  display: flex;
+flex-direction: row;
+height: 40px;
+justify-content: center;
+margin-bottom: -10px;
+
+}
+
+.hostPic {
+  border-radius: 90px;
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
+}
+
+.housingTags {
+    
+  display: flex;   
+  flex-direction: row;    
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+
+.housingTag {
+border: 3px solid $main-color;
+background-color:$main-color;
+border-radius:10px;
+width: max-content;
+font-family: $main-font;
+padding-left: 20px;
+  padding-right: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  padding-bottom: 2px;
+  padding-top: 2px;
+
+}
+
+
+
+
+
+
+
+.carousel {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 750px) {
+
+  .housingInfos {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+  }
+
+  .housingHostAndRating {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin-left: 0;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .collapseDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+  }
+
+}
